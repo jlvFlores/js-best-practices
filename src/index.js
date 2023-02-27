@@ -1,7 +1,7 @@
 import './style.css';
-import {renderList, addToList, clearCompleted} from './modules/add-remove-list.js';
+import { renderList, addToList, clearCompleted } from './modules/add-remove-list.js';
 
-addEventListener('DOMContentLoaded', renderList());
+document.addEventListener('DOMContentLoaded', renderList());
 
 // EVENT LISTENERS
 const addBtn = document.getElementById('add-button');

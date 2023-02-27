@@ -7,4 +7,4 @@ export const clearList = () => {
   });
 };
 
-export const updateCompleted = checkbox => !checkbox.completed;
+export const updateCompleted = (checkbox) => !checkbox.completed;
